@@ -21,3 +21,5 @@ echo "Apache status:"
 sudo systemctl status apache2
 
 echo "Apache installation completed!"
+
+rm /var/www/html/index.html
